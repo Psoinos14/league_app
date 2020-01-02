@@ -1,0 +1,7 @@
+{
+  id: @champ.id,
+  name: @champ.name,
+  ult: @champ.ult,
+  tier: @champ.tier
+
+}

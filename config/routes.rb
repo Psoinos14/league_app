@@ -9,5 +9,8 @@ Rails.application.routes.draw do
   namespace :api do
     get "/champs" => "champs#index"
     get "/champs/:id" => "champs#show"
+    post "/champs" => "champs#create"
+    patch "/champs/:id" => "champs#update"
+    delete "/champs/:id" => "champs#destroy"
   end
 end
